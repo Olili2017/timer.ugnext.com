@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run test_ci",
-    "start" : "next start",
+    "start": "next start",
     "dev": "next"
   },
   "repository": {
@@ -27,8 +27,14 @@
   },
   "homepage": "https://github.com/Olili2017/timer.ugnext.com#readme",
   "dependencies": {
+    "mobx": "^5.15.6",
+    "mobx-react": "^6.3.0",
     "next": "^9.5.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-proposal-decorators": "^7.10.5"
   }
 }

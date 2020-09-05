@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { Component } from 'react'
+import { observer, inject} from 'mobx-react'
 
-export default function Timer (){
-  return(
+@inject("timerStore")
+@observer
+export default class Timer extends Component {
+  render(){
+    const store = this.props.timerStore
+    return(
     <>
-    </>
-  )
+      <p>hello {store.seconds}</p>
+    </>)
+  }
 }

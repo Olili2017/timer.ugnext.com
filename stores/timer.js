@@ -1,6 +1,7 @@
 import { observable, action, computed } from 'mobx'
 
 class TimerStore {
+
   @observable seconds = 0;
 
   @action addSecond(){

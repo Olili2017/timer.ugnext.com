@@ -1,7 +1,7 @@
-import TimerStore from './timer'
+import TimerStore from './timer';
 
-export default (function store(){
+export default (function store() {
   return {
-    timerStore: new TimerStore()
-  }
-})()
+    timerStore: new TimerStore(),
+  };
+}());

@@ -2,9 +2,11 @@
   "name": "timer.ugnext.com",
   "version": "1.0.0",
   "description": "My class or other sessions timing project",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-    "test": "npm run test_ci"
+    "test": "npm run test_ci",
+    "start" : "next start",
+    "dev": "next"
   },
   "repository": {
     "type": "git",
@@ -23,5 +25,10 @@
   "bugs": {
     "url": "https://github.com/Olili2017/timer.ugnext.com/issues"
   },
-  "homepage": "https://github.com/Olili2017/timer.ugnext.com#readme"
+  "homepage": "https://github.com/Olili2017/timer.ugnext.com#readme",
+  "dependencies": {
+    "next": "^9.5.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
 }

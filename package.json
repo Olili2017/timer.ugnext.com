@@ -1,0 +1,27 @@
+{
+  "name": "timer.ugnext.com",
+  "version": "1.0.0",
+  "description": "My class or other sessions timing project",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm run test_ci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olili2017/timer.ugnext.com.git"
+  },
+  "keywords": [
+    "Timer",
+    "Ugnext",
+    "Olili",
+    "daniel",
+    "class",
+    "session"
+  ],
+  "author": "Daniel Olili",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Olili2017/timer.ugnext.com/issues"
+  },
+  "homepage": "https://github.com/Olili2017/timer.ugnext.com#readme"
+}

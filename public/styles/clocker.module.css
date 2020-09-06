@@ -1,0 +1,27 @@
+@font-face {
+  font-family: Digital;
+  src: url('../fonts/digital_regular.ttf');
+}
+
+.clock {
+  max-width: 80vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ticker {
+  margin: 1em 0em;
+  padding: 2vh;
+  background-color: var(--bg-dark);
+  font-size: 6em;
+  border-radius: 8px;
+  box-shadow: inset 0px 0px 15px #111111;
+  color: var(--text-on-dark);
+  font-family: Digital;
+}
+
+.dot {
+  margin: 1em 0em;
+  padding: 2vh;
+  font-size: 6em;
+}

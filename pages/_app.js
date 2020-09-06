@@ -4,6 +4,8 @@ import React from 'react';
 import App from 'next/app';
 import { Provider } from 'mobx-react';
 
+import '../public/styles/index.css';
+
 import store from '../stores';
 
 export default class TimerApp extends App {

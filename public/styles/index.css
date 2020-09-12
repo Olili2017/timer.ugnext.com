@@ -1,0 +1,10 @@
+:root {
+  --main-font: 'Roboto', 'san-serif';
+  --bg-dark: #333333;
+  --text-on-dark: #CCCCCC;
+}
+
+body, div, p {
+  margin: 0;
+  padding: 0;
+}

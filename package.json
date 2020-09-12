@@ -1,0 +1,57 @@
+{
+  "name": "timer.ugnext.com",
+  "version": "1.0.0",
+  "description": "My class or other sessions timing project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test_ci",
+    "start": "next start",
+    "dev": "next dev",
+    "build": "next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olili2017/timer.ugnext.com.git"
+  },
+  "keywords": [
+    "Timer",
+    "Ugnext",
+    "Olili",
+    "daniel",
+    "class",
+    "session"
+  ],
+  "author": "Daniel Olili",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Olili2017/timer.ugnext.com/issues"
+  },
+  "homepage": "https://github.com/Olili2017/timer.ugnext.com#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mobx": "^5.15.6",
+    "mobx-react": "^6.3.0",
+    "next": "^9.5.3",
+    "next-fonts": "^1.4.0",
+    "next-images": "^1.4.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-proposal-decorators": "^7.10.5",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.4",
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0",
+    "file-loader": "^6.1.0",
+    "react-test-renderer": "^16.13.1",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.44.1"
+  }
+}

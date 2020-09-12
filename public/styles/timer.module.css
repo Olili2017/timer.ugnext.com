@@ -1,0 +1,26 @@
+.container {
+  background: url('../images/timer_bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.actionbtn {
+  background-color: var(--bg-dark);
+  color: var(--text-on-dark);
+  padding: 0.3em;
+  font-size: 1.6em;
+  margin: 0em 0.5em;
+  border-radius: 4px;
+  text-transform: uppercase;
+  text-shadow: 10px 10px 20px black;
+  box-shadow: 0px 0px 0.1em black;
+}
